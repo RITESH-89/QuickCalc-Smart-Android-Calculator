@@ -1,39 +1,38 @@
-📱 QuickCalc – Smart Android Calculator
-🔹 Overview
+# 📱 QuickCalc – Smart Android Calculator
 
-QuickCalc is a basic Android calculator application built using Java and XML in Android Studio. It allows users to perform fundamental arithmetic operations with a clean and user-friendly interface.
+## 🔹 Overview
 
-This project demonstrates core Android development concepts such as UI design, event handling, and input validation.
+QuickCalc is a simple Android calculator application built using Java and XML in Android Studio.  
+The app performs basic arithmetic operations including addition, subtraction, multiplication, and division.
 
-✨ Features
+This project demonstrates core Android development concepts such as UI design, event handling, input validation, and basic arithmetic logic.
 
-➕ Addition
+---
 
-➖ Subtraction
+## ✨ Features
 
-✖ Multiplication
+- ➕ Addition  
+- ➖ Subtraction  
+- ✖ Multiplication  
+- ➗ Division  
+- 🧹 Clear button to reset inputs  
+- 🔔 Toast message validation for empty fields  
+- 🎨 Simple and clean user interface  
 
-➗ Division
+---
 
-🧹 Clear button to reset fields
+## 🛠 Technologies Used
 
-🔔 Toast message validation for empty input
+- Java  
+- XML  
+- Android Studio  
+- Android SDK  
+- AppCompatActivity  
 
-🎨 Clean and centered UI design
+---
 
-🛠 Technologies Used
+## 📂 Project Structure
 
-Java
-
-XML
-
-Android Studio
-
-Android SDK
-
-AppCompatActivity
-
-📂 Project Structure
 QuickCalc/
 │
 ├── app/
@@ -45,65 +44,59 @@ QuickCalc/
 │   │   └── values/
 │   │       └── strings.xml
 │   └── AndroidManifest.xml
-📸 Application Flow
 
-User enters two numbers.
+---
 
-User selects an operation (+, -, *, /).
+## 📸 Application Flow
 
-Result is displayed instantly.
+1. Enter two numbers in the input fields.
+2. Click on any arithmetic operation button (+, -, *, /).
+3. The result is displayed instantly.
+4. If fields are empty, a Toast message appears.
+5. Click "Clear" to reset all fields.
 
-If fields are empty, a Toast message is shown.
+---
 
-Clear button resets all inputs.
+## 🧠 Concepts Demonstrated
 
-🧠 Concepts Demonstrated
+- Android Activity Lifecycle  
+- XML Layout Design  
+- View Binding using findViewById()  
+- Event Handling using OnClickListener  
+- Parsing String to Double  
+- Toast Notifications  
+- Basic Arithmetic Operations  
 
-Android Activity Lifecycle
+---
 
-XML Layout Design
+## 🚀 How to Run the Project
 
-View Binding using findViewById()
+1. Install Android Studio.
+2. Clone this repository:
+   git clone https://github.com/yourusername/QuickCalc.git
+3. Open the project in Android Studio.
+4. Sync Gradle.
+5. Run on Emulator or Physical Device.
 
-Event Handling with OnClickListener
+---
 
-Parsing String to Double
+## 📈 Future Enhancements
 
-Toast Messages
+- Add decimal number support  
+- Add division-by-zero handling  
+- Improve UI using Material Design  
+- Add dark mode  
+- Add scientific calculator features  
 
-Basic Arithmetic Logic
+---
 
-🚀 How to Run the Project
+## 👨‍💻 Author
 
-Install Android Studio.
+Developed by Ritesh  
+Android Developer | Java Programmer  
 
-Clone this repository:
+---
 
-git clone https://github.com/yourusername/QuickCalc.git
+## 📜 License
 
-Open the project in Android Studio.
-
-Sync Gradle.
-
-Run on Emulator or Physical Device.
-
-📈 Future Improvements
-
-Add decimal input support
-
-Add scientific calculator functions
-
-Add dark mode
-
-Add error handling for division by zero
-
-Improve UI using Material Design
-
-👨‍💻 Author
-
-Developed by Ritesh
-Android Developer | Java Programmer
-
-📜 License
-
-This project is for educational purposes.
+This project is developed for educational purposes.
